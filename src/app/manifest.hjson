@@ -9,7 +9,7 @@
 
 	// https://developer.chrome.com/extensions/manifest/name#name
 	// maximum of 45 characters
-	"name": "Chrome extension template"
+	"name": "eh video downloader"
 
 	// https://developer.chrome.com/extensions/manifest/version
 	"version": "0.0.1"
@@ -94,12 +94,12 @@
 	"content_scripts": [
 		{
 			// https://developer.chrome.com/extensions/match_patterns
-			"matches": ["<all_urls>"]
+			"matches": ["*://egghead.io/*"]
 			// "exclude_matches": []
 			// "match_about_blank": false
 			"css": ["css/contentstyles.css"]
 			"js": ["js/contentscript.js"]
-			// "run_at": "document_idle" // document_idle, document_start, document_end
+			"run_at": "document_idle" // document_idle, document_start, document_end
 			// "all_frames": false
 			// "include_globs": []
 			// "exclude_globs": []
@@ -212,7 +212,7 @@
 		// "displaySource"
 		// "dns"
 		// "documentScan"
-		// "downloads"
+		"downloads"
 		// "enterprise.deviceAttributes"
 		// "enterprise.platformKeys"
 		// "experimental"
