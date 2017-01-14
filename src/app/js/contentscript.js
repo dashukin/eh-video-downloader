@@ -60,8 +60,8 @@ function getMediaSources () {
 							return true;
 						}
 					});
-					seriesNumber = seriesNumber ? `${seriesNumber}.` : '';
-					let filename = `${courseName}/${seriesNumber} ${seriesName}.mp4`;
+					seriesNumber = seriesNumber ? `${seriesNumber}. ` : '';
+					let filename = `${courseName}/${seriesNumber}${seriesName}.mp4`;
 					chrome.runtime.sendMessage({
 						topic: 'download',
 						url,
