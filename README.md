@@ -9,7 +9,7 @@
 
 1. npm install
 2. npm run build
-3. Go to chrome://extension
+3. Go to chrome://extensions
 4. Toggle developers mode on
 5. Add build/app directory
 6. Go to eh series page
