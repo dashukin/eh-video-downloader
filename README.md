@@ -5,7 +5,7 @@
 1. Works on free courses.
 2. Simplifies the way how video could be downloaded.
 3. Automatically creates directory with course name in Downloads folder
-4. Autimatically grabs series name and index
+4. Automatically grabs series name and index
 
 ## Usage
 
