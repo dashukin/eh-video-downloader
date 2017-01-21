@@ -56,7 +56,7 @@ function getMediaSources () {
 					let seriesNumber;
 					Array.prototype.some.call(seriesList, (item, index) => {
 						if (item.contains(currentCourseBlock)) {
-							seriesNumber = index;
+							seriesNumber = index + 1;
 							return true;
 						}
 					});
